@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# API Keys (NEVER commit these!)
+*.env
+.env.local
+secrets.toml
+api_keys.txt
+
+# Large files (optional - include data for demo)
+# data/
+# models/
+# knowledgedb/
+
+# Temporary files
+*.tmp
+*.log
+temp/
+scratch/
