@@ -20,6 +20,43 @@ This is a **complete, production-ready pipeline** that shows how modern AI can t
 
 ---
 
+## 🚀 Quick Start
+
+### **Prerequisites**
+```bash
+Python 3.9+
+pip install -r requirements.txt
+```
+
+### **Setup (Runs Steps 1-15)**
+```bash
+python setup.py
+```
+
+This will:
+- Generate synthetic customer data
+- Train and pickle the model
+- Calculate SHAP values
+- Allocate actions via optimization
+- Create knowledge base PDFs
+
+**Runtime**: ~2-3 minutes
+
+### **Launch App (Steps 16-30)**
+```bash
+streamlit run app.py
+```
+
+Then:
+1. Enter your Anthropic API key in the sidebar
+2. Select a customer from the dropdown
+3. Explore the three tabs:
+   - **SHAP Waterfall**: See revenue drivers
+   - **Feature Interactions**: Understand why actions are allocated
+   - **Pre-Call Plan**: Generate AI-powered insights
+
+---
+
 ## 📋 The 30-Step Process
 
 ### **Phase 1: Data & Model (Steps 1-5)**
@@ -86,42 +123,7 @@ Handled by `app.py`
 
 ---
 
-## 🚀 Quick Start
 
-### **Prerequisites**
-```bash
-Python 3.9+
-pip install -r requirements.txt
-```
-
-### **Setup (Runs Steps 1-15)**
-```bash
-python setup.py
-```
-
-This will:
-- Generate synthetic customer data
-- Train and pickle the model
-- Calculate SHAP values
-- Allocate actions via optimization
-- Create knowledge base PDFs
-
-**Runtime**: ~2-3 minutes
-
-### **Launch App (Steps 16-30)**
-```bash
-streamlit run app.py
-```
-
-Then:
-1. Enter your Anthropic API key in the sidebar
-2. Select a customer from the dropdown
-3. Explore the three tabs:
-   - **SHAP Waterfall**: See revenue drivers
-   - **Feature Interactions**: Understand why actions are allocated
-   - **Pre-Call Plan**: Generate AI-powered insights
-
----
 
 ## 📊 Key Features
 
